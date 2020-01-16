@@ -1,24 +1,37 @@
 /* applies to anything of class "example-class-selector" */
+/* lab 2 */
 .example-class-selector {
-	margin-top: 2em;
+     margin-left: 20px;
+     margin-top: 2px;
+}
+
+.project{
+     margin-left: 20px;
+     background-color: #B0BECB;
+     padding: 20px;
+    width: 525px;
 }
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
-	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
-	color: #CC00AA;
+     /* Colors are in hexadecimal: http://www.colorpicker.com/ */
+     color: #B0BECB;
 }
 
+.project p {
+    font-variant: small-caps;
+}
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
+     border: 2px dotted gray;
      padding: 20px;
+     background-color: #B0BECB;
 }
 
 .jumbotron {
-	position: relative;
-	background: none;
+     position: relative;
+     background: none;
 }
 
 .jumbotron:after {
@@ -30,5 +43,5 @@ body {
      bottom: 0;
      right: 0;
      position: absolute;
-     z-index: -1;	
+     z-index: -1;
 }
